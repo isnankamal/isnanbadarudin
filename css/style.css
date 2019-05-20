@@ -1,0 +1,213 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Slab&display=swap');
+/* Start Font */
+
+/* Start Body */
+body {
+    background-color: rgb(206, 72, 201);
+    color: rgb(124, 230, 4);
+    font-family: Pt-serif, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(174, 0, 255)
+}
+.bg-red {
+    background-color: rgba(255, 0, 221, 0.644)
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo*/
+.Logo {
+    text-align: center;
+}
+
+/* End Logo*/
+
+/* Start Anchor / hyperlink */
+a:link,
+a:visited {
+    color: #0400ff;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / hyperlink */
+
+/* Start menu primer */
+.menu-primer ul {
+    background-color: rgb(174, 0, 255);
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 
+    0 3px 5px -1px rgba(0,0,0,.2),
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 18px 0 rgba(0,0,0,.12)
+
+}
+
+.menu-primer li {
+    border-right: 1px solid rgba(66, 62, 62, 0.726);
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: azure;
+    color: black;
+    text-decoration: azure;
+}
+
+.menu-primer .active {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* End menu primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8af;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h2 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 30%;
+}
+
+/* Start Sidebar */
+
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin:  0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* end Menu Sekunder */
