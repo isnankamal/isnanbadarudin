@@ -1,2 +1,0 @@
-# isnanbadarudin
-bla bla bla
